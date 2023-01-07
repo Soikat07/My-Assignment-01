@@ -85,17 +85,20 @@ color: gray;
 line-height:25px;
 }
 /* section-3 style*/
+.section-3{
+     background-image:url(../images/watch.png);  
+     background-repeat: no-repeat; 
+     width:50%;
+     margin:auto;
+     border-radius: 10px;
+}
 .div3{
-     background-image:url(../images/watch.png),url(../images/gradient1.png);
-     background-blend-mode: overlay;
-     background-repeat: no-repeat;
-     width: 50%;
-     margin: auto;
+     background: linear-gradient(90deg,#005FAC, rgba(0, 95, 172, 0));
      text-align: left;
-     padding: 50px 200px 70px 50px;
+     padding: 40px 200px 70px 50px;
      color: white;
      font-size: 35px;
-     border-radius: 8px;
+     border-radius: 10px;
 }
 /* Footer style */
 footer{
