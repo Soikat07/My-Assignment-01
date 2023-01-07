@@ -1,6 +1,6 @@
 /* Header Style */
 *{
-     margin: auto;
+     margin:0;
      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .primary-btn{
@@ -31,4 +31,33 @@ header{
 .header-description{
      line-height: 80px;
      margin-top: 60px;
+}
+/* Section-1 style */
+.section-1-container{
+     display: flex;
+     justify-content:center;
+     margin: 40px 350px 80px 350px;
+     gap: 50px;
+}
+.left-container{
+     padding-top:50px;
+width: 50%;
+}
+.right-container{
+     padding-top: 250px;
+width: 50%;
+}
+.right-container-title{
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+}
+.right-container-description{
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+.items{
+     margin-top: 10px;
+     list-style: none;
 }
